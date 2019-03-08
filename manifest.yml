@@ -1,5 +1,5 @@
 applications:
-- memory: 384M
+- memory: 512M
   env:
     OPTIMIZE_MEMORY: true
   command: node index.js --settings ./bluemix-settings.js -v
