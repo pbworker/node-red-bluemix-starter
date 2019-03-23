@@ -11,17 +11,15 @@
         "body-parser":"1.x",
         "http-shutdown":"1.2.0",
         "node-red": "0.x",
-        "node-red-bluemix-nodes":"1.x",
-        "node-red-node-watson":"0.x",
         "node-red-node-openwhisk":"0.x",
         "node-red-node-cf-cloudant":"0.x",
         "node-red-contrib-scx-ibmiotapp":"0.x",
         "node-red-nodes-cf-sqldb-dashdb":"0.x",
         "node-red-dashboard":"2.x",
-        "node-red-contrib-persist":"1.x",
-        "node-red-node-feedparser":"0.x",
         "node-red-node-pushover":"0.x",
-        "node-red-node-rbe":"0.x"
+        "node-red-node-rbe":"0.x",
+        "node-red-contrib-scx-ibmiotapp":"0.x",
+        
     },
     "scripts": {
         "start": "node --max-old-space-size=160 index.js --settings ./bluemix-settings.js -v"
